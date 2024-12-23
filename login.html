@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - Cafe Bliss</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="icon1.jpg" type="image/x-icon" />
+</head>
+
+<body>
+  <header class="bg-light text-dark py-3">
+    <nav class="container navbar navbar-expand-lg navbar-light">
+      <!-- إضافة اللوجو -->
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="logo_transparent.jpg" alt="Logo" class="logo" />
+        <span class="brand-name">hikayih</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">الرئيسيه</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">المنيو</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">حولنا</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">الدعم</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">تسجيل دخول</a>
+          </li>
+          
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="container d-flex justify-content-center align-items-center" style="min-height: 100vh">
+    <div class="card p-4 shadow" style="max-width: 400px; width: 100%">
+      <h2 class="text-center mb-4">تسجيل دخول</h2>
+      <form id="login-form">
+        <div class="mb-3">
+          <label for="email" class="form-label">الريد الالكترونى</label>
+          <input type="email" class="form-control" id="email" placeholder="ادخل بريدك الالكترونى" required />
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">كلمه المرور</label>
+          <input type="password" class="form-control" id="password" placeholder="ادخل كلمه المرور" required />
+        </div>
+        <div class="d-grid">
+          <button type="submit" class="btn btn-primary">تسجيل دخول</button>
+        </div>
+      </form>
+      <p class="text-center mt-3">
+        ليس لديك حساب؟ <a href="register.html">انشى حساب</a>
+      </p>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 مقهى ومطعم متميز. جميع الحقوق محفوظة.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script.js>
+  </body>
+</html>
